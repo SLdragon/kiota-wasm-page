@@ -1,0 +1,28 @@
+{
+  "name": "@redhat-developer/kiota-wasm",
+  "type": "module",
+  "version": "0.0.2",
+  "description": "Kiota compiled in a native WASM module.",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf bin obj dist node_modules",
+    "build": "dotnet build --configuration Release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat-developer/kiota-wasm.git"
+  },
+  "keywords": [
+    "kiota",
+    "openapi",
+    "codegen"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/redhat-developer/kiota-wasm/issues"
+  },
+  "homepage": "https://github.com/redhat-developer/kiota-wasm#readme"
+}
